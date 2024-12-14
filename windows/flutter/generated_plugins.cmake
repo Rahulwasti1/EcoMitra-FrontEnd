@@ -3,6 +3,11 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
+<<<<<<< HEAD
+=======
+  file_selector_windows
+  permission_handler_windows
+>>>>>>> 8b4c323 (completed AI)
   url_launcher_windows
 )
 

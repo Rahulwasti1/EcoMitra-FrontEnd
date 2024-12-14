@@ -8,7 +8,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+<<<<<<< HEAD
 import 'package:ecomitra_frontend/main.dart';
+=======
+import 'package:myapp/main.dart';
+>>>>>>> 8b4c323 (completed AI)
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

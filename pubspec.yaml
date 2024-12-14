@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 name: ecomitra_frontend
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
+=======
+name: myapp
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+>>>>>>> 8b4c323 (completed AI)
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -30,11 +38,25 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+<<<<<<< HEAD
   http: any
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+=======
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: any
+  image_picker: any
+  url_launcher: any
+  permission_handler: any
+  camera: any
+  tflite: any
+
+>>>>>>> 8b4c323 (completed AI)
 
 dev_dependencies:
   flutter_test:
@@ -46,22 +68,37 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^4.0.0
+<<<<<<< HEAD
   flutter_map: any
   url_launcher: any
+=======
+>>>>>>> 8b4c323 (completed AI)
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8b4c323 (completed AI)
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
+<<<<<<< HEAD
   assets:
     - assets/icons/
+=======
+assets:
+  - assets/model.tflite
+  - assets/download.jfif
+  - assets/download(1).jfif
+  - assets/download.png
+>>>>>>> 8b4c323 (completed AI)
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

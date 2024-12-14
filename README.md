@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # ecomitra_frontend
+=======
+# myapp
+>>>>>>> 8b4c323 (completed AI)
 
 A new Flutter project.
 

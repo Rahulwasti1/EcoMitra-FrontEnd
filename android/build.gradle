@@ -1,5 +1,6 @@
 buildscript {
     repositories {
+<<<<<<< HEAD
         google()  // Ensures you can access Google's Maven repository for dependencies
         mavenCentral()  // Allows access to Maven Central repository
     }
@@ -16,6 +17,14 @@ allprojects {
         google()
         mavenCentral()
     }
+=======
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.7.3'
+    }
+>>>>>>> 8b4c323 (completed AI)
 }
 
 rootProject.buildDir = "../build"

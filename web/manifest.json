@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "ecomitra_frontend",
     "short_name": "ecomitra_frontend",
+=======
+    "name": "myapp",
+    "short_name": "myapp",
+>>>>>>> 8b4c323 (completed AI)
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
